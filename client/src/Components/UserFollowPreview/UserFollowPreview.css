@@ -1,0 +1,47 @@
+.user-preview {
+  background-color: #22262B;
+  padding: 10px 0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.user-preview__container {
+  width: 90%;
+  margin: auto;
+}
+
+.user-preview__flex {
+  display: flex;
+  align-items: center;
+}
+
+.user-preview__flex.icon {
+  justify-content: space-between;
+}
+
+.user-preview__flex.col {
+  margin-left: 10px;
+}
+
+.user-preview__col {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.user-preview__avatar {
+  object-fit: contain;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.user-preview__name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.user-preview__username {
+  color: #94989e;
+  font-size: 0.8rem;
+  margin-top: 3px;
+}

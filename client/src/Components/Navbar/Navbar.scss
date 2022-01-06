@@ -1,0 +1,93 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+.navbar{
+  width: 100%;
+  height: 90px;
+  background-color: $darkThemeBackground;
+  color: white;
+
+  position: sticky;
+  top: 0;
+
+  font-family: $primaryFont;
+
+  background: rgba( 25, 27, 31, 0.25 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+
+  &__container {
+    width: 90%;
+    max-width:1300px;
+    margin: auto;
+    @include centerVertically;
+  }
+
+  &__flex {
+    display: grid;
+    grid-template-columns: 0.45fr 1.8fr 0.75fr;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__img{
+    object-fit: contain;
+    height: 3rem;
+  }
+
+  &__search {
+    max-width:100%;
+    height: 40px; 
+
+    padding-left: 15px;
+
+    color: white;
+    
+
+    background-color: $lightGray;
+    border: transparent;
+    border-radius: 5px;
+
+    font-family: $primaryFont;
+
+    &:focus{
+      outline: none
+    }
+
+    &::placeholder {
+      color: #cbccce
+    }
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: end;
+    
+  }
+
+  &__align {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+  }
+
+  &__avatar {
+    object-fit: contain;
+    height: 40px;
+  }
+
+  &__icon {
+    width: 30px;
+    height: 30px;
+
+    &.small {
+      width: 25px;
+      height: 25px
+    }
+  }
+
+  &__middle {
+    margin: 0px 10px
+  }
+}

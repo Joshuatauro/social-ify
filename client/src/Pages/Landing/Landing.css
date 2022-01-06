@@ -1,0 +1,65 @@
+.landing {
+  width: 100%;
+  min-height: calc(100vh - 90px);
+  background-color: #191B1F;
+  color: white;
+  margin-top: -90px;
+  padding-top: 90px;
+  font-family: Inter;
+}
+
+.landing__container {
+  width: 90%;
+  margin: auto;
+}
+
+.landing__grid {
+  display: grid;
+  grid-template-columns: 0.45fr 1.8fr 0.75fr;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.landing__col {
+  min-height: 50px;
+}
+
+.landing__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing__title {
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.landing__title-3 {
+  padding-top: 8px;
+}
+
+.landing__button {
+  background-color: #FE5657;
+  color: white;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.landing__button:focus {
+  outline: none;
+}
+
+.col-3 {
+  position: sticky;
+  top: 100px;
+  height: min-content;
+}
+
+.user-preview-col {
+  margin-top: 27.5px;
+}

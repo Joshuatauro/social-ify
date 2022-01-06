@@ -1,0 +1,15 @@
+@mixin centerVertically {
+  display: flex;
+  align-items: center;
+  height:100%
+}
+
+@mixin centerHorizontally {
+  display: flex;
+  justify-content: center
+}
+
+@mixin center {
+  @include centerHorizontally;
+  align-items: center;
+}

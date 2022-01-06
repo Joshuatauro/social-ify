@@ -1,0 +1,54 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.user-preview {
+  background-color: $darkThemeForeground;
+  padding: 10px 0;
+
+  border-radius: 8px;
+
+  margin-bottom: 10px;
+
+  &__container {
+    width: 90%;
+    margin: auto
+  }
+
+  &__flex {
+    display: flex;
+    align-items: center;
+
+    &.icon {
+      justify-content: space-between;
+    }
+
+    &.col {
+      margin-left: 10px;
+    }
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  &__avatar{
+    object-fit: contain;
+    width: 45px;
+
+    border-radius:50%
+  }
+
+  &__name {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  &__username {
+    color: $darkThemeText;
+    font-size: 0.8rem;
+    margin-top: 3px
+  }
+
+}
