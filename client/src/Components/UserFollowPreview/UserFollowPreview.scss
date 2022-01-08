@@ -9,6 +9,21 @@
 
   margin-bottom: 10px;
 
+  transition-duration: 0.2s;
+  transition-property: all;
+  
+
+
+  &:hover {
+    background-color: $highlight;
+  transition-duration: 200;
+
+  & .user-preview__username {
+    color: white
+  }
+
+  }
+
   &__container {
     width: 90%;
     margin: auto
@@ -43,6 +58,8 @@
   &__name {
     font-size: 1rem;
     font-weight: 500;
+    color: white;
+    text-decoration: none;
   }
 
   &__username {

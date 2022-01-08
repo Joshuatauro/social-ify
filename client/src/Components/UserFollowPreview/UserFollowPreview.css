@@ -3,6 +3,17 @@
   padding: 10px 0;
   border-radius: 8px;
   margin-bottom: 10px;
+  transition-duration: 0.2s;
+  transition-property: all;
+}
+
+.user-preview:hover {
+  background-color: #FE5657;
+  transition-duration: 200;
+}
+
+.user-preview:hover .user-preview__username {
+  color: white;
 }
 
 .user-preview__container {
@@ -38,6 +49,8 @@
 .user-preview__name {
   font-size: 1rem;
   font-weight: 500;
+  color: white;
+  text-decoration: none;
 }
 
 .user-preview__username {
