@@ -15,7 +15,7 @@
 
 .landing__grid {
   display: grid;
-  grid-template-columns: 0.45fr 1.8fr 0.75fr;
+  grid-template-columns: 0.75fr 1.8fr 0.75fr;
   gap: 30px;
   padding-top: 20px;
 }
@@ -32,7 +32,6 @@
 
 .landing__title {
   font-size: 1.1rem;
-  margin: 0;
   font-weight: 600;
 }
 
@@ -41,7 +40,7 @@
 }
 
 .landing__button {
-  background-color: #FE5657;
+  background-color: #DE2D35;
   color: white;
   padding: 10px 30px;
   font-weight: 600;

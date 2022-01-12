@@ -28,9 +28,11 @@
   width: 100%;
 }
 
-.navbar__img {
-  object-fit: contain;
-  height: 3rem;
+.navbar__logo {
+  font-family: Russo One;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #DE2D35;
 }
 
 .navbar__search {

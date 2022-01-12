@@ -21,7 +21,7 @@
 
   &__grid {
     display: grid;
-    grid-template-columns: 0.45fr 1.8fr 0.75fr;
+    grid-template-columns: 0.75fr 1.8fr 0.75fr;
     gap: 30px;
 
     padding-top: 20px;
@@ -36,11 +36,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
   }
 
   &__title {
     font-size: 1.1rem;
-    margin: 0;
+    // margin-bottom: 15px;
     font-weight: 600;
 
     &-3{

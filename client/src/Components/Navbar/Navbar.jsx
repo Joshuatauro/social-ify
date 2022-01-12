@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import { BellIcon, HeartIcon, PlusIcon, PlusSmIcon } from '@heroicons/react/outline'
 const Navbar = () => {
+
+
 
   return (
     <nav className="navbar">
       <div className="navbar__container">
         <div className="navbar__flex">
-          <img src="logo.png" className='navbar__img' alt="" />
+          <h1 className="navbar__logo">Astral</h1>
           <input type="text" className="navbar__search" placeholder="Search for different posts using keywords" />
           <ul className="navbar__actions">
           <li className='navbar__align'>

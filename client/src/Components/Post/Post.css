@@ -5,6 +5,10 @@
   border-radius: 5px;
 }
 
+.post.view {
+  margin: 0 0 20px 0;
+}
+
 .post__container {
   width: 95%;
   margin: auto;
@@ -33,29 +37,28 @@
 
 .post__username {
   color: #94989e;
-  font-size: 0.8rem;
+  font-size: 0.83rem;
   margin-left: 5px;
+  font-weight: 400;
 }
 
 .post__date {
   color: #94989e;
   font-size: 0.8rem;
-  margin-top: 6px;
 }
 
 .post__title {
   margin-top: 15px;
   font-weight: 500;
-  font-size: 1.22rem;
+  font-size: 1.25rem;
 }
 
 .post__body {
   color: #94989e;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 400;
   margin-top: 7px;
   padding-bottom: 15px;
-  line-height: normal;
 }
 
 .post__actions {

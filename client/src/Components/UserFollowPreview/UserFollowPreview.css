@@ -8,7 +8,7 @@
 }
 
 .user-preview:hover {
-  background-color: #FE5657;
+  background-color: #DE2D35;
   transition-duration: 200;
 }
 
@@ -57,4 +57,5 @@
   color: #94989e;
   font-size: 0.8rem;
   margin-top: 3px;
+  font-weight: 400;
 }
