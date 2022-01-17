@@ -1,0 +1,33 @@
+.comment {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.comment__avatar {
+  height: 38px;
+  object-fit: contain;
+  margin-right: 7px;
+}
+
+.comment__flex {
+  display: flex;
+  align-items: center;
+}
+
+.comment__name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.comment__body {
+  margin: 5px 0 0 0;
+  font-size: 0.9rem;
+  color: #cfcccc;
+}
+
+.comment__username {
+  color: #94989e;
+  font-size: 0.83rem;
+  margin-left: 5px;
+  font-weight: 400;
+}

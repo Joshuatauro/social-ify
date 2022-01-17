@@ -12,29 +12,57 @@
   cursor: pointer;
 }
 
+.post-view__comment {
+  background-color: #22262B;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.post-view__container {
+  width: 95%;
+  margin: auto;
+}
+
+.post-view__comment-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.post-view__comments-title {
+  font-size: 1.2rem;
+}
+
 .post-view__textarea {
   width: calc(100% - 20px);
-  background-color: #22262B;
+  background-color: #303841;
   border-radius: 5px;
-  height: 130px;
+  height: 100px;
+  border: 1px;
   padding: 10px 10px;
   color: white;
   font-family: Inter;
-  font-size: 1rem;
+  font-size: 0.95rem;
   resize: none;
 }
 
 .post-view__textarea:focus {
   outline: none;
-  border: solid 1px rgba(223, 218, 218, 0.856);
 }
 
 .post-view__textarea::placeholder {
-  color: #94989e;
+  color: #cbccce;
   font-size: 1.3px #DE2D35;
 }
 
 .post-view__comment-submit {
   width: 100%;
-  margin: 0px;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin: 5px 0 0 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  background-color: #303841;
+  color: white;
+  font-weight: 500;
 }

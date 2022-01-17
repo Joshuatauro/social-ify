@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.comment {
+  width: 100%;
+  margin-top: 25px;
+
+  &__avatar {
+    height: 38px;
+    object-fit: contain;
+    margin-right: 7px;
+  }
+
+  &__flex {
+    display: flex;
+    align-items: center;
+  }
+
+  &__name {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  &__body {
+    margin: 5px 0 0 0;
+    font-size: 0.9rem;
+    // color: #cbccce;
+    color: rgb(207, 204, 204);
+  }
+
+  &__username {
+    color: $darkThemeText;
+    font-size: 0.83rem;
+    margin-left: 5px;
+    font-weight: 400;
+  }
+} 
