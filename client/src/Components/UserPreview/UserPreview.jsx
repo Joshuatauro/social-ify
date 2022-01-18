@@ -12,7 +12,8 @@ const UserPreview = () => {
         <div className="preview__body">
           <h1 className="preview__name">Joshua Tauro</h1>
           <h1 className="preview__username">@joshuatauro45</h1>
-
+          <p className="preview__bio">Hey there, im Joshua Tauro and I am a Fullstack Developer who usually uses React on the frontend and ExpressJs on the backend</p>
+          <button className="preview__follow">Follow</button>
         </div>
       </div>
     </article>

@@ -115,5 +115,6 @@ p {
 
 .container {
 	width: 90%;
-	margin: auto
+	margin: auto;
+	max-width: 1300px
 }

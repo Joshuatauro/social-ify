@@ -3,15 +3,18 @@
 .preview {
   width: 100%;
   background-color: $darkThemeForeground;
+  border-radius: 5px;
 
   &__images {
     position: relative;
+
   }
 
   &__banner {
     width: 100%;
     height: 90px;
-    object-fit: cover
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
   }
 
   &__avatar{
@@ -59,5 +62,28 @@
     justify-content: center;
 
     margin-top: 2px;
+  }
+
+  &__bio {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    
+    color: #CBCCCE;
+
+    text-align: center
+  }
+
+  &__follow {
+    width: 100%;
+    padding: 9px 0;
+    margin-top: 20px;
+
+    background-color: $lightGray;
+    color: white;
+    border-radius: 5px;
+
+    font-size: 0.9rem;
+
+    cursor:pointer;
   }
 }
