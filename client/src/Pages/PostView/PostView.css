@@ -2,6 +2,12 @@
   max-width: 100%;
 }
 
+.post-view__col {
+  position: sticky;
+  top: 100px;
+  height: min-content;
+}
+
 .post-view__button {
   padding: 10px 20px;
   background-color: #DE2D35;

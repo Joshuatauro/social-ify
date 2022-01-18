@@ -2,12 +2,13 @@ import React from 'react'
 import './PostView.css'
 import Post from '../../Components/Post/Post'
 import Comment from '../../Components/Comment/Comment'
+import UserPreview from '../../Components/UserPreview/UserPreview'
 const PostView = () => {
   return (
     <div className="main">
       <div className="container">
         <div className="app__grid">
-          <div>
+          <div className="post-view__col">
             <button className="post-view__button">
               Go Back
             </button>
@@ -31,6 +32,9 @@ const PostView = () => {
 
               </div>
             </div>
+          </div>
+          <div className="post-view__col">
+            <UserPreview />
           </div>
         </div>
     </div>

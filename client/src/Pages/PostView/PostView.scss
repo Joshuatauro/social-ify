@@ -4,6 +4,14 @@
 .post-view {
   max-width: 100%;
 
+  &__col {
+    position: sticky;
+    top: 100px ;
+    height:min-content;
+
+
+  }
+
   &__button {
     padding: 10px 20px;
     background-color: $highlight;
